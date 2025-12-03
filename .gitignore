@@ -1,0 +1,30 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Processed data
+data/proceed/
+data/processed/
+data/*.npy
+data/*.npz
+data/*.pkl
+data/*.joblib
+
+# Trained models
+models/*.pkl
+models/*.joblib
+
+# Large images
+*.png
+*.jpg
+*.jpeg
+
+# (Optional) ignore CSV if >100MB
+# *.csv
