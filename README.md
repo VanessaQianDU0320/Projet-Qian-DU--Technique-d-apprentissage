@@ -7,14 +7,15 @@ Le travail inclut l’étude de trois modèles classiques — **CART**, **KNN**,
 ---
 
 ## 📂 Structure du projet
-
+```text
 project/
 │
 ├── Data/
 │ └── raw/
-│ └── creditcard.csv
+│  ├── creditcard.csv
+│ └── processed/  -> Splited Data save area
 │
-├── models/
+├── models/  -> Model save area
 │ ├── CART_MinMax.pkl
 │ ├── CART_Original.pkl
 │ ├── CART_PCA_10.pkl
@@ -29,7 +30,7 @@ project/
 │ └── RF_Standard.pkl
 │
 ├── reports/
-│ ├── figures/
+│ ├── figures/  -> Visualisation figures save area
 │ ├── creditcard_analyse.xlsx
 │ └── Rapport - Projet Techniques d’Apprentissage Artificiel.docx
 │
@@ -40,7 +41,11 @@ project/
 ├── main.py
 ├── requirements.txt
 └── README.md
+```
 
+Les fichiers de modèles (.pkl), les figures, et les data splited ne sont pas inclus dans le dépôt GitHub
+car ils dépassent la limite de taille de GitHub (>100 Mo).
+Ils peuvent être régénérés en exécutant les scripts du dossier src/.
 
 ---
 
