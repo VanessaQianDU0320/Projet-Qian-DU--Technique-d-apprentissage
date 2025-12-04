@@ -151,9 +151,8 @@ Le dossier `reports/` contient :
 
 - Ajouter des signaux métier (fréquence, montant inhabituel, géolocalisation…)  
 - Utiliser les données brutes non PCA pour plus d’interprétabilité  
-- Tester XGBoost, LightGBM, CatBoost  
+- Tester d'autre models 
 - Ajouter une validation croisée  
-- Envisager un déploiement (API de scoring en temps réel)
 
 ---
 
