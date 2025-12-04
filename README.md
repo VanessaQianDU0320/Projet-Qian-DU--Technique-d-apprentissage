@@ -117,7 +117,7 @@ Implémentées dans `src/evaluation.py` :
 pip install -r requirements.txt
 
 ### 2. Lancer le pipeline complet
-python src/main.py
+python main.py
 
 Ce script :
 - charge les données  
